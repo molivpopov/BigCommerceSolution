@@ -1,4 +1,5 @@
 {
+    "name": "mitkop/getCustomer",
     "require": {
         "bigcommerce/api": "^3.2"
     }
