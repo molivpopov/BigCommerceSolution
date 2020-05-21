@@ -32,7 +32,7 @@ BEGIN
     WHILE (start_count > 0) DO
 		SET start_count := start_count - 1;
         INSERT INTO scan_shipped_orders(tracking_number, user_id) VALUE
-        (left(concat(cnt, '1Z32629V0395461168'), 18), 1);
+        (left(concat(start_count, '1Z32629V0395461168'), 18), 1);
     END WHILE;
 END;//
 
