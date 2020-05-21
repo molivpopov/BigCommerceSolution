@@ -1,7 +1,7 @@
 <?php
 
-require_once '..\app\GetCustomer.php';
-require_once '..\vendor\autoload.php';
+require_once __DIR__.'/../app/GetCustomer.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
 $info = key_exists('info', $_POST)
     ? $_POST['info']
